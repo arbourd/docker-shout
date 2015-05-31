@@ -33,7 +33,7 @@ $ docker run --name=shout -d -v ~/shout:/shout -p 9000:9000 arbourd/shout
 Set the `PORT` env variable in your `run` command to whatever port you want, in this case `8080`
 
 ```bash
-$ docker run --name=shout -d -v -e PORT=8080 ~/shout:/shout -p 8080:8080 arbourd/shout
+$ docker run --name=shout -d -e PORT=8080 -v ~/shout:/shout -p 8080:8080 arbourd/shout
 ```
 
 ### Setting the server as private
@@ -43,7 +43,7 @@ $ docker run --name=shout -d -v -e PORT=8080 ~/shout:/shout -p 8080:8080 arbourd
 Set the `PRIVATE` env variable in your `run` command to `true` to run Shout as `private`
 
 ```bash
-$ docker run --name=shout -d -v -e PRIVATE=true ~/shout:/shout -p 9000:9000 arbourd/shout
+$ docker run --name=shout -d -e PRIVATE=true -v ~/shout:/shout -p 9000:9000 arbourd/shout
 ```
 
 ### User CRUD
