@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:4.2.1-slim
 MAINTAINER Dylan Arbour <dylan.arbour@gmail.com>
 
 ENV PORT="9000"
