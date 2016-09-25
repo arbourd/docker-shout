@@ -2,7 +2,7 @@
 
 [Shout](http://shout-irc.com), a node irc client/server in the browser, in a container
 
-[![](https://badge.imagelayers.io/arbourd/shout:latest.svg)](https://imagelayers.io/?images=arbourd/shout:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/version/arbourd/shout.svg)](http://microbadger.com/images/arbourd/shout "Get your own version badge on microbadger.com") [![](https://images.microbadger.com/badges/image/arbourd/shout.svg)](http://microbadger.com/images/arbourd/shout "Get your own image badge on microbadger.com")
 
 [![](http://dockeri.co/image/arbourd/shout)](https://registry.hub.docker.com/u/arbourd/shout/)
 
